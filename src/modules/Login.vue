@@ -1,7 +1,8 @@
 <template>
   <div id="background" style="padding-top:20px;">
     <center>
-      <div id="divLogin" class="col-sm-3 my-sm-5 border rounded" style="margin-left:0.5%">
+      <div class="div1">
+      <div id="divLogin" >
         <form class="container">
           <center>
             <h1>Login</h1>
@@ -38,18 +39,44 @@
           <br><br>
         </form>
       </div>
+      <h2 class="text">Easakay</h2>
+      </div>
     </center>
   </div>
+
 </template>
 <style scoped lang="scss">
 @import "assets/style.scss";
 
 #username {
-  color: $white !important;
+  color: $black !important;
 }
 #pass {
-  color: $white !important;
+  color: $black !important;
 }
+.div1 {
+  width: 1000px;
+  height: 600px;  
+  padding: 50px;
+  border: 1px solid green;
+  background-color: green;
+}
+#divLogin {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  width: 600px;
+  height: 400px;  
+  padding: 50px;
+  border: 1px solid green;
+  background-color:white;
+  margin-left: 250px;
+}
+.text {
+  float: left;
+  color : $white !important;
+  
+}
+
 </style>
 <script>
 

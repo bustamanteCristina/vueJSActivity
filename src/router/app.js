@@ -61,6 +61,12 @@ export default {
         component: resolve => require(['modules/confirmLogout.vue'], resolve),
         meta: {
             tokenRequired: false
+        },
+        path: '/Resevation',
+        name: 'Reservation',
+        component: resolve => require(['modules/Resevation.vue'], resolve),
+        meta: {
+            tokenRequired: false
         }
     }
 ]

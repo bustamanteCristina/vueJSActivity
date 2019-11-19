@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="background">
+  <div id="app">
   <Header></Header>
   <AppBody></AppBody>
   <!-- <Sidebar v-show = "$route.path === '/Dashboard' || $route.path === '/Subjects'|| $route.path === '/PersonalInfo' ? true: false"> -->
@@ -10,12 +10,7 @@
 
 <style scoped lang="scss">
 @import "assets/style.scss";
-.background{
-  background-image: $background !important;
-  background-repeat: $norepeat !important;
-  background-size: $cover !important ;
-  height: $bheight !important;
-}
+
 </style>
 
 <script>
